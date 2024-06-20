@@ -16409,3 +16409,45 @@ html:not(.layout-footer-fixed) .content-wrapper {
 .footer.bg-light hr {
   border-color: rgba(105, 122, 141, 0.0783835294);
 }
+
+
+.apartment-card img{
+  border-radius: 6px;
+
+}
+
+.apartment-card h1,h2,h3,h4,h5,h6,p{
+  margin: 0px;
+  margin-bottom: 4px;
+}
+.apartment-card h6{
+  font-weight: 600;
+  /* color: var(--bs-primary); */
+}
+
+.apartment-card p{
+  font-size: 14px;
+}
+
+.apartment-card span{
+  font-size: 12px;
+  color: primary;
+}
+
+.user-fav{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  /* display: flex;
+  justify-content: space-between!important; */
+}
+
+.user-fav p{
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 5px 15px !important;
+}
+
+.user-fav i{
+  color: #fff;
+}
